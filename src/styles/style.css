@@ -34,6 +34,11 @@ h1 {
     max-width: 700px;
     margin-top: 100px;
 }
+h2 {
+    font-family: 'Neucha', cursive;
+    font-size: 60px;
+    line-height: 72px;
+}
 .yellow {
     color: #FE8A02;
 }
@@ -97,7 +102,7 @@ header:before {
    flex-direction: column;
 
 }
-.text-center .title {
+.text-center  {
     max-width: 100%; 
     text-align: center;
 }
@@ -109,7 +114,9 @@ header:before {
     bottom: -86px;  
     left: 50%;
     transform: translateX(-50%);
-
+}
+.video {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 .navigation-section {
     background: #8d8c87;

@@ -1,1 +1,231 @@
 /** CSS STYLE **/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 25.6px;
+    
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FE8A02;
+    color: #fff;
+    font-weight: bold;
+    line-height: 160%;
+    padding: 12px 24px;
+}
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+.title {
+    font-size: 72px;
+    line-height: 86px; 
+    max-width: 700px;
+}
+.yellow {
+    color: #FE8A02;
+}
+header {
+    position: relative;
+    height: 75vh;
+    overflow-x: hidden;
+}
+.image-wrap {
+    position: absolute;
+    top: -30px;
+    left: 100%;
+    transform: translateX(-100%);
+    margin-left: 250px;
+}
+.image-wrap img {
+    max-height: 525px;
+    height: 100%;
+}
+.title-wrap {
+    margin-top: 100px;    
+    position: relative;
+    z-index: 5;
+}
+.main-items {
+    display: flex;
+}
+.main-item {
+    width: 50%;
+}
+.main-item p {
+    margin-top: 0;
+}
+.main .btn {
+    margin-top: 40px;
+}
+.what-is-it {
+    position: relative;
+    height: 814px;
+}
+.text-center {
+   display: flex;
+   align-content: center;
+   flex-direction: column;
+
+}
+.text-center .title {
+    max-width: 100%; 
+    text-align: center;
+}
+.text {
+    text-align: center;
+}
+.image-wrap-video {
+    position: absolute;
+    bottom: -86px;  
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.navigation-section {
+    background: #8d8c87;
+    padding: 100px 0;
+}
+.navigation-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-item {
+    max-width: 350px;
+    background: #F5F4F0;
+    min-height: 323px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+      
+}
+.grey {
+    background: #8d8c87;
+    color: #fff;
+}
+.title-h2 {
+    font-size: 34px;
+    line-height: 40px;
+}
+.title-h1 {
+    font-size: 52px;
+    line-height: 62px;
+}
+.title-h3 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #908D8B;
+}
+.title-h4 {
+    font-size: 14px;
+    font-weight:bold;
+    line-height: 17px;
+    background: #B09A81;
+    color:#FFFFFF;
+    padding: 10px 5px;
+    margin-bottom: 25px;
+
+}
+.numb {
+    font-size: 64px;
+    line-height: 70px;
+}
+.ikea-section {
+    background-color: #f5f4f0;
+    background-image: url(../../projects-css-l1-cognitive-biases/images/background.png);
+    padding: 100px 0;
+}
+.ikea-container-items {
+    display: flex;
+    margin-bottom: 100px;
+ }
+ .ikea-container-item {
+     width: 50%;
+     padding: 10px;
+ }
+ .optimization-section {
+     background-color: #B09A81;
+     background-image: url(../../projects-css-l1-cognitive-biases/images/background.png);
+     padding: 100px 0;
+     color: #fff;
+
+ }
+ .optimization-items {
+     display: flex;
+     margin-bottom: 100px;
+ }
+ .optimization-item {
+     width: 50%;
+     padding: 10px;
+ }
+ .optimization-section .title-h4 {
+     background-color: #FFFFFF;
+     color:#B09A81;
+ }
+ .optimization-section .title-h3 {
+        color: #D7CCC0;
+ }
+ .new-section {
+    background-color: #f5f4f0;
+    background-image: url(../../projects-css-l1-cognitive-biases/images/background.png);
+    padding: 100px 0;
+ }
+ .new-items {
+    display: flex;
+    margin-bottom: 100px;
+ }
+ .new-item {
+     width: 50%;
+     padding: 10px;
+ }
+
+ .hiperbola-section {
+    background-color: #B09A81;
+    background-image: url(../../projects-css-l1-cognitive-biases/images/background.png);
+    padding: 100px 0;
+    color: #fff;
+
+}
+.hiperbola-items {
+    display: flex;
+    margin-bottom: 100px;
+}
+.hiperbola-item {
+    width: 50%;
+    padding: 10px;
+}
+.hiperbola-section .title-h4 {
+    background-color: #FFFFFF;
+    color:#B09A81;
+}
+.hiperbola-section .title-h3 {
+       color: #D7CCC0;
+}
+
+
+ .plan-section {
+    background-color: #f5f4f0;
+    background-image: url(../../projects-css-l1-cognitive-biases/images/background.png);
+    padding: 100px 0;
+ }
+ .plan-items {
+    display: flex;
+    margin-bottom: 100px;
+ }
+ .plan-item {
+     width: 50%;
+     padding: 10px;
+     
+ }
+ .plan-item p {
+    margin-top: 0;

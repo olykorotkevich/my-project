@@ -55,7 +55,8 @@ header {
 header:before,
 .ikea-section:before,
 .optimization-section:before,
-.new-section::before {
+.new-section::before,
+.hiperbola-section:before {
     content: "";
     position: absolute;
     top: 50%;
@@ -171,6 +172,7 @@ header:before,
 .title-h2 {
     font-size: 34px;
     line-height: 40px;
+    font-family: 'Neucha', cursive;
 }
 .title-h1 {
     font-size: 52px;
@@ -211,7 +213,8 @@ header:before,
      width: 50%;
      padding: 10px;
  }
- .optimization-section {
+ .optimization-section,
+ .hiperbola-section  {
      position: relative;
      padding: 100px 0;
      color: #fff;
@@ -247,13 +250,10 @@ header:before,
      padding: 10px;
  }
 
- .hiperbola-section {
-    background-color: #B09A81;
-    background-image: url(../../projects-css-l1-cognitive-biases/images/background.png);
-    padding: 100px 0;
-    color: #fff;
+ 
+    
 
-}
+
 .hiperbola-items {
     display: flex;
     margin-bottom: 100px;

@@ -53,7 +53,8 @@ header {
     overflow: hidden;
 }
 header:before,
-.ikea-section:before {
+.ikea-section:before,
+.optimization-section::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -66,6 +67,7 @@ header:before,
     height: 100%;
     width: 100%;
     z-index: -1;
+    
 }
 .header-top {
     min-height: 470px;
@@ -209,10 +211,11 @@ header:before,
      padding: 10px;
  }
  .optimization-section {
-     background-color: #B09A81;
-     background-image: url(../../projects-css-l1-cognitive-biases/images/background.png);
+     position: relative;
      padding: 100px 0;
      color: #fff;
+     background-color: #B09A81;
+     z-index: -2;
 
  }
  .optimization-items {

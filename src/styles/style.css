@@ -39,6 +39,11 @@ h2 {
     font-size: 60px;
     line-height: 72px;
 }
+h3 {
+    font-size: 34px;
+    line-height: 40px;
+    font-family: 'Neucha', cursive;
+}
 .yellow {
     color: #FE8A02;
 }
@@ -107,7 +112,7 @@ header:before {
     text-align: center;
 }
 .text {
-    text-align: center;
+    text-align: justify;
 }
 .image-wrap-video {
     position: absolute;
@@ -118,28 +123,46 @@ header:before {
 .video {
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
+
 .navigation-section {
     background: #8d8c87;
-    padding: 100px 0;
+    padding: 165px 0;  
 }
+.navigation-section a {
+    display: block;
+    color:#2A2626;
+}
+.navigation-section a:hover {
+    color: #FFFFFF;
+    background-color: #FE8A02;
+}
+.navigation-section a:hover .yellow {
+    color: #FFFFFF;
+}
+
 .navigation-items {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    margin-top: 100px;   
 }
 .navigation-item {
-    max-width: 350px;
+    width: 308px;
     background: #F5F4F0;
     min-height: 323px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-      
+    padding: 24px;
+    margin-bottom: 20px;     
 }
 .grey {
     background: #8d8c87;
     color: #fff;
+    width: 356px;
+    padding: 0;
+        
 }
 .title-h2 {
     font-size: 34px;
@@ -148,6 +171,7 @@ header:before {
 .title-h1 {
     font-size: 52px;
     line-height: 62px;
+    font-family: 'Neucha', cursive;
 }
 .title-h3 {
     font-size: 24px;
@@ -166,7 +190,9 @@ header:before {
 }
 .numb {
     font-size: 64px;
-    line-height: 70px;
+    line-height: 1;
+    padding-bottom: 40px;
+    font-family: 'Neucha', cursive;
 }
 .ikea-section {
     background-color: #f5f4f0;

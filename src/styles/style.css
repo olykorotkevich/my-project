@@ -54,7 +54,8 @@ header {
 }
 header:before,
 .ikea-section:before,
-.optimization-section::before {
+.optimization-section:before,
+.new-section::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -234,8 +235,7 @@ header:before,
         color: #D7CCC0;
  }
  .new-section {
-    background-color: #f5f4f0;
-    background-image: url(../../projects-css-l1-cognitive-biases/images/background.png);
+    position: relative;
     padding: 100px 0;
  }
  .new-items {

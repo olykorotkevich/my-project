@@ -288,3 +288,58 @@ header:before,
  .plan-item p {
     margin-top: 0;
  }
+ .footer-top {
+     color: #FFFFFF;
+     background-color: #42413C;
+     display: flex;
+     align-items: center;
+     padding: 0 55px;
+}
+.footer-top a {
+    color: #FFFFFF;
+}
+.footer-top-item {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.form-input {
+    padding: 15px;
+    border: none;
+    max-height: 50px;
+    min-width: 423px;
+}
+form .btn {
+    position: relative;
+    border: none;
+    max-height: 50px;
+    width: 70px;
+}
+form .btn:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../../projects-css-l1-cognitive-biases/images/send.svg);
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+}
+.rules {
+    font-size: 12px;
+    line-height: 19px;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer-bottom a {
+    color: #1085C5;
+}
+
+.form-group {
+    display: flex;
+    max-height: 50px;
+}

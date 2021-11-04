@@ -106,6 +106,7 @@ header:before,
 .what-is-it {
     position: relative;
     height: 814px;
+    padding: 100px 0;
 }
 .text-center {
    display: flex;
@@ -132,7 +133,7 @@ header:before,
 
 .navigation-section {
     background: #8d8c87;
-    padding: 165px 0;  
+    padding: 100px 0;  
 }
 .navigation-section a {
     display: block;

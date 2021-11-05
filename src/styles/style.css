@@ -4,7 +4,7 @@ body {
     padding: 0;
     margin: 0;
     font-size: 16px;
-    line-height: 25.6px;
+    line-height: 26px;
     font-family: 'Open Sans', sans-serif;
 }
 a {
@@ -78,7 +78,7 @@ header:before,
 .image-wrap {
     position: absolute;
     top: 55px;
-    right: -270px;
+    right: -104px;
 }
 .image-wrap img {
     max-height: 525px;
@@ -106,14 +106,14 @@ header:before,
 .video-section {
     position: relative;
     height: 814px;
-    padding: 100px 0;
+    padding: 150px 0;
 }
 .text-center {
    display: flex;
    align-content: center;
    flex-direction: column;
    text-align: center;
-   margin-bottom: 30px;
+  
 
 }
 .title-text-center  {
@@ -126,7 +126,7 @@ header:before,
 }
 .image-wrap-video {
     position: absolute;
-    bottom: -100px;  
+    bottom: 108px;  
     left: 50%;
     transform: translateX(-50%);
 }
